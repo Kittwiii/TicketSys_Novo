@@ -1,4 +1,4 @@
-# Nova Ticket-System (Educational Purpose Only)
+# Nov0 Ticket-System (Educational Purpose Only)
 
 This is a simple ticket management system built using Python and SQLite.  **This project is for educational purposes only and should not be used in a production environment.**  It demonstrates basic database interactions and command-line menu functionality.
 

@@ -2,8 +2,6 @@ import sqlite3
 import uuid
 from datetime import datetime, timedelta
 
-# What the Fuck is this Shit here?!
-
 def main():
     try:
         conn = sqlite3.connect('tickets.db')
@@ -214,7 +212,7 @@ def search_tickets(conn):
     else:
         print("Keine Tickets gefunden.")
 
-
+# Priority
 def get_priority_and_due_date():
     while True:
         priority = input("Priorität (Major, Normal, Minor): ").lower()
